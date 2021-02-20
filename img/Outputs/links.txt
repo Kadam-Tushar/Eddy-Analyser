@@ -1,0 +1,32 @@
+Our Paper's Poster:
+https://vis2020-ieee.ipostersessions.com/default.aspx?s=81-22-28-10-E6-10-56-10-5E-BA-36-95-DF-77-48-B8
+
+Dataset and contest details:
+https://kaust-vislab.github.io/SciVis2020/
+
+First video introduces data:
+https://youtu.be/1o0nzZYfjn8
+
+Inviwo:
+https://inviwo.org/
+
+
+
+
+
+
+
+
+
+
+
+
+
+Visualization projects:
+
+Generate visualizations of the Red Sea data from the SciVis Contest 2020. The reference posters assigned to you is one of the selected entries to the contest. Use the reference assigned to you as a starting point to identify what aspect you will focus on and how you will generate the visualizations. You need not necessarily use the same tools or software as described in the reference. 
+
+* You should address at least 2 tasks, either following the approach in the reference, or a novel approach that you propose. 
+* Use visualization tools (Paraview, Inviwo, VisIt, MeshLab, Tableau) together with your own scripts for computing derived fields and features of interest. 
+* You should present the visualization with the same level of professionalism as in the reference posters and video.
+* Extra points for innovative ideas. 

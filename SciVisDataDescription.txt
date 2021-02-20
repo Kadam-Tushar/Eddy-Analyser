@@ -1,0 +1,133 @@
+Source:
+           /home/tanay/Desktop/GAV Final Project/SciVisDataSet/ensembles/0001/COMBINED_2011013100.nc
+Format:
+           classic
+Global Attributes:
+           CDI         = 'Climate Data Interface version 1.9.3 (http://mpimet.mpg.de/cdi)'
+           Conventions = 'CF-1.6'
+           history     = 'Fri Sep 06 14:15:32 2019: cdo mergetime COMBINED_2011010106.nc COMBINED_2011010118.nc COMBINED_2011010206.nc COMBINED_2011010218.nc COMBINED_2011010306.nc COMBINED_2011010318.nc COMBINED_2011010406.nc COMBINED_2011010418.nc COMBINED_2011010506.nc COMBINED_2011010518.nc COMBINED_2011010606.nc COMBINED_2011010618.nc COMBINED_2011010706.nc COMBINED_2011010718.nc COMBINED_2011010806.nc COMBINED_2011010818.nc COMBINED_2011010906.nc COMBINED_2011010918.nc COMBINED_2011011006.nc COMBINED_2011011018.nc COMBINED_2011011106.nc COMBINED_2011011118.nc COMBINED_2011011206.nc COMBINED_2011011218.nc COMBINED_2011011306.nc COMBINED_2011011318.nc COMBINED_2011011406.nc COMBINED_2011011418.nc COMBINED_2011011506.nc COMBINED_2011011518.nc COMBINED_2011011606.nc COMBINED_2011011618.nc COMBINED_2011011706.nc COMBINED_2011011718.nc COMBINED_2011011806.nc COMBINED_2011011818.nc COMBINED_2011011906.nc COMBINED_2011011918.nc COMBINED_2011012006.nc COMBINED_2011012018.nc COMBINED_2011012106.nc COMBINED_2011012118.nc COMBINED_2011012206.nc COMBINED_2011012218.nc COMBINED_2011012306.nc COMBINED_2011012318.nc COMBINED_2011012406.nc COMBINED_2011012418.nc COMBINED_2011012506.nc COMBINED_2011012518.nc COMBINED_2011012606.nc COMBINED_2011012618.nc COMBINED_2011012706.nc COMBINED_2011012718.nc COMBINED_2011012806.nc COMBINED_2011012818.nc COMBINED_2011012906.nc COMBINED_2011012918.nc COMBINED_2011013006.nc COMBINED_2011013018.nc COMBINED.nc
+                         FERRET V7.43   6-Sep-19'
+           CDO         = 'Climate Data Operators version 1.9.3 (http://mpimet.mpg.de/cdo)'
+Dimensions:
+           T_AX    = 60    (UNLIMITED)
+           XC      = 500
+           YC      = 500
+           XG      = 500
+           YG      = 500
+           Z_MIT40 = 50
+           bnds    = 2
+Variables:
+    T_AX        
+           Size:       60x1
+           Dimensions: T_AX
+           Datatype:   double
+           Attributes:
+                       standard_name = 'time'
+                       units         = 'hours since 1901-01-15 00:00:00'
+                       calendar      = 'gregorian'
+                       axis          = 'T'
+    XC          
+           Size:       500x1
+           Dimensions: XC
+           Datatype:   single
+           Attributes:
+                       standard_name = 'longitude'
+                       long_name     = 'longitude'
+                       units         = 'degrees_east'
+                       axis          = 'X'
+    YC          
+           Size:       500x1
+           Dimensions: YC
+           Datatype:   single
+           Attributes:
+                       standard_name = 'latitude'
+                       long_name     = 'latitude'
+                       units         = 'degrees_north'
+                       axis          = 'Y'
+    XG          
+           Size:       500x1
+           Dimensions: XG
+           Datatype:   single
+           Attributes:
+                       standard_name = 'longitude'
+                       long_name     = 'longitude'
+                       units         = 'degrees_east'
+                       axis          = 'X'
+    YG          
+           Size:       500x1
+           Dimensions: YG
+           Datatype:   single
+           Attributes:
+                       standard_name = 'latitude'
+                       long_name     = 'latitude'
+                       units         = 'degrees_north'
+                       axis          = 'Y'
+    Z_MIT40     
+           Size:       50x1
+           Dimensions: Z_MIT40
+           Datatype:   double
+           Attributes:
+                       standard_name = 'depth'
+                       units         = 'meters'
+                       positive      = 'down'
+                       axis          = 'Z'
+                       bounds        = 'Z_MIT40_bnds'
+                       point_spacing = 'uneven'
+    Z_MIT40_bnds
+           Size:       2x50
+           Dimensions: bnds,Z_MIT40
+           Datatype:   double
+    TEMP        
+           Size:       500x500x50x60
+           Dimensions: XC,YC,Z_MIT40,T_AX
+           Datatype:   double
+           Attributes:
+                       long_name     = 'temp'
+                       _FillValue    = -9.999999999999999e+33
+                       missing_value = -9.999999999999999e+33
+                       history       = 'From Ttave.2011010106.data'
+    SALT        
+           Size:       500x500x50x60
+           Dimensions: XC,YC,Z_MIT40,T_AX
+           Datatype:   double
+           Attributes:
+                       long_name     = 'salt'
+                       _FillValue    = -9.999999999999999e+33
+                       missing_value = -9.999999999999999e+33
+                       history       = 'From Stave.2011010106.data'
+    U           
+           Size:       500x500x50x60
+           Dimensions: XG,YC,Z_MIT40,T_AX
+           Datatype:   double
+           Attributes:
+                       long_name     = 'u'
+                       _FillValue    = -9.999999999999999e+33
+                       missing_value = -9.999999999999999e+33
+                       history       = 'From uVeltave.2011010106.data'
+    V           
+           Size:       500x500x50x60
+           Dimensions: XC,YG,Z_MIT40,T_AX
+           Datatype:   double
+           Attributes:
+                       long_name     = 'v'
+                       _FillValue    = -9.999999999999999e+33
+                       missing_value = -9.999999999999999e+33
+                       history       = 'From vVeltave.2011010106.data'
+    ETA         
+           Size:       500x500x60
+           Dimensions: XC,YC,T_AX
+           Datatype:   double
+           Attributes:
+                       long_name     = 'eta'
+                       _FillValue    = -9.999999999999999e+33
+                       missing_value = -9.999999999999999e+33
+                       history       = 'From ETAtave.2011010106.data'
+    W           
+           Size:       500x500x50x60
+           Dimensions: XC,YC,Z_MIT40,T_AX
+           Datatype:   double
+           Attributes:
+                       long_name     = 'W'
+                       _FillValue    = -9.999999999999999e+33
+                       missing_value = -9.999999999999999e+33
+                       history       = 'From wVeltave.2011010106.data'
