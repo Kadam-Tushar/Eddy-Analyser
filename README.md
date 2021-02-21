@@ -121,3 +121,5 @@ Tried  matlab's `SURF` feature to identify same eddies over different time inter
 ----
 - Thanks for Reading ! 
 - PR's are welcome, 
+- [Detailed Reprort](./Report.pdf) which was submitted.
+- [PPT](https://indianinstituteofscience-my.sharepoint.com/:p:/g/personal/tanayn_iisc_ac_in/EVK5ONb0xZxPhPe2M9f-Kk0Bxvx2NOX_0W1nUUdQd0rmXQ?e=XhJACi) for better understadning.
