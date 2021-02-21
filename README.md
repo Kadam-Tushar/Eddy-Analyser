@@ -8,10 +8,12 @@
 
 
 - **Eddies** are clockwise or counter-clockwise circular movements of water that play a major role in transporting energy and biogeochemical particles in the ocean.
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=500px src="./img/Perpetual_Ocean.gif" alt="NASA"></a>
 
-![Nasa Eddy Visualisation](./img/Perpetual_Ocean.gif)
 
-<div style="text-align: right"> NASA Visualisation Studio</div>
+<div style="text-align: center"> NASA Visualisation Studio</div>
 
 ------------------------------------------
 This project does visualization of eddies present in red sea and finds interesting statistical measures to study behavior of eddies.
@@ -52,20 +54,20 @@ This project does visualization of eddies present in red sea and finds interesti
 
 -   Loosely detected majority of meso-scale eddies using [Okuba-weiss parameter](https://github.com/inviwo/inviwo).
 <center>
-<img src="./img/Outputs/falseDetections3D.png" alt="redsea" width="350"/>
+<img src="./img/Outputs/falseDetections3D.png" alt="redsea" width="500"/>
 </center>
 <div style="text-align: center"> 3D Eddy Visualisations</div>
 
    
 - Filtered out `false postitive` eddies using Gemotrical constraints mentioned in this [paper](https://www.researchgate.net/publication/260722486_Gulf_Stream_eddy_characteristics_in_a_high-resolution_ocean_model_Gulf_Stream_Eddy_Characteristics).
 <center>
-<img src="./img/Outputs/ens1T45withGeomConstr.png" alt="redsea" width="350"/>
+<img src="./img/Outputs/ens1T45withGeomConstr.png" alt="redsea" width="500"/>
 </center>
 <div style="text-align: center"> Surface Level Meso-scale Eddies</div>
 
 - From detected eddy centers from above step we applied `Breadth First Search` over 3D region upto tested threshholds to detect eddies in 3D space and finally this new data is visualized using `Inviwo`.
  
- Here in Inviwo we can interactivly study shapes these eddies in 3D. 
+ Here in Inviwo we can interactivly study shapes of these eddies in 3D. 
 
  ```
 Green : Eddies.
@@ -73,32 +75,32 @@ Pink : Sea Bed from Bathy metry data.
  ```
 
 <center>
-<img src="./img/Outputs/eddy_vis_3d.png" alt="redsea" width="350"/>
+<img src="./img/Outputs/eddy_vis_3d.png" alt="redsea" width="500"/>
 </center>
 <div style="text-align: center"> 3D Eddy Visualisations with Bathymetry Data at Timestep 15</div>
   
 - Calculating this eddy information over all ensembles we plotted count of eddies graph.
 <center>
-<img src="./img/Outputs/numberOfEddies.png" alt="redsea" width="350"/>
+<img src="./img/Outputs/numberOfEddies.png" alt="redsea" width="500"/>
 </center>
 <div style="text-align: center"> Count of Eddies over 7 ensembles</div>
 
 - To validate our detected eddies we tried `stream-line-plots` over same region:
  <center>
-<img src="./img/Outputs/stream_with_eddy_radii%20(1).png" alt="redsea" width="350"/>
+<img src="./img/Outputs/stream_with_eddy_radii%20(1).png" alt="redsea" width="500"/>
 </center>
 <div style="text-align: center"> Streamlines and eddy detection on same graph</div>
 
 - To establish relationship between eddies i.e identify  particular eddy is same in timestep X and X+1 we developed novel algorithm for eddy-tracking using area - overlap. 
 Tried  matlab's `SURF` feature to identify same eddies over different time interval:
 <center>
-<img src="./img/Outputs/SURF.png" alt="redsea" width="350"/>
+<img src="./img/Outputs/SURF.png" alt="redsea" width="500"/>
 </center>
 <div style="text-align: center"> SURF from matlab</div>
 
 - To get better results and make this as real time as posible we used `Image Processing` to track eddies between images of surface eddies.
 <center>
-<img src="./img/Outputs/eddy_centroid.png" alt="redsea" width="350"/>
+<img src="./img/Outputs/eddy_centroid.png" alt="redsea" width="500"/>
 </center>
 <div style="text-align: center"> Eddy centroids </div>
 
@@ -106,20 +108,19 @@ Tried  matlab's `SURF` feature to identify same eddies over different time inter
 - Once tracking is done from previous step now to Visualise eddy-relationships we tried to show it graph format. 
   
 <center>
-<img src="./img/Outputs/eddy_life_cycle.png" alt="redsea" width="350"/>
+<img src="./img/Outputs/eddy_life_cycle.png" alt="redsea" width="500"/>
 </center>
 <div style="text-align: center"> Eddy Life Graph </div>
 
 - From this network we visualised Deaths/Births graph , splits /merges of eddies.
   
 <center>
-<img src="./Outputs/../img/Outputs/BirthsEnsemble1.png" alt="redsea" width="350"/>
+<img src="./Outputs/../img/Outputs/BirthsEnsemble1.png" alt="redsea" width="500"/>
 </center>
 <div style="text-align: center"> Eddy Births </div>
 
 
 ----
-- Thanks for Reading ! 
 - PR's are welcome, 
-- [Detailed Reprort](./Report.pdf) which was submitted.
+- [Detailed Reprort of Work](./Report.pdf)
 - [PPT](https://indianinstituteofscience-my.sharepoint.com/:p:/g/personal/tanayn_iisc_ac_in/EVK5ONb0xZxPhPe2M9f-Kk0Bxvx2NOX_0W1nUUdQd0rmXQ?e=XhJACi) for better understadning.
