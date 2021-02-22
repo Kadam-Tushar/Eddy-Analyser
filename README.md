@@ -54,6 +54,7 @@ This project does visualization of eddies present in red sea and finds interesti
 
 ## Brief Explanation of our Approach:
 
+Note : To view images in high resolutionn goto `img/Outputs` 
 - Detected meso-scale eddies using [Okuba-weiss parameter](https://github.com/inviwo/inviwo) from `velocity field` in  dataset.
 <p align="center">
 <a href="" rel="noopener">
