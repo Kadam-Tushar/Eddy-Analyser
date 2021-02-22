@@ -26,7 +26,7 @@ This project does visualization of eddies present in red sea and finds interesti
 <a href="" rel="noopener">
 <img src="./img/red_sea_map.png" alt="redsea" width="350px"/></a>
 
-<div style="text-align: center">Red Sea - Google Maps</div>
+<p align="center">Red Sea - Google Maps</div>
 
 - This is a course project of [Graphics and Visualization](https://www.csa.iisc.ac.in/~vijayn/courses/Graphics/index.html) course.
 - Problem statement for this project is taken from [IEEE SciVis Contest 2020](https://kaust-vislab.github.io/SciVis2020/index.html)
