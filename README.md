@@ -13,7 +13,7 @@
  <img width=500px src="./img/Perpetual_Ocean.gif" alt="NASA"></a>
 
 
-<div style="text-align: center"> NASA Visualisation Studio</div>
+<p align="center"> NASA Visualisation Studio</p>
 
 ------------------------------------------
 This project does visualization of eddies present in red sea and finds interesting statistical measures to study behavior of eddies.
