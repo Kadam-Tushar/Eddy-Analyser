@@ -30,7 +30,7 @@ This project does visualization of eddies present in red sea and finds interesti
 
 - This is a course project of [Graphics and Visualization](https://www.csa.iisc.ac.in/~vijayn/courses/Graphics/index.html) course.
 - Problem statement for this project is taken from [IEEE SciVis Contest 2020](https://kaust-vislab.github.io/SciVis2020/index.html)
-- This project solves `Eddy Visualization in 3D ` and `Interesting Eddy statistics`  tasks of contest. like tracking eddies over multiple time intervals, births/deaths of eddies.
+- This project solves `Eddy Visualization in 3D ` and `Interesting Eddy statistics`  tasks of contest. It tracks eddies over multiple time intervals and derive important statistics like births/deaths or path of eddies.
   
 ------------------------------------------
 ## Contributors:
@@ -58,16 +58,14 @@ This project does visualization of eddies present in red sea and finds interesti
 <p align="center">
 <a href="" rel="noopener">
 <img src="./img/Outputs/falseDetections3D.png" alt="redsea" width="500px"/></a>
-
-<div style="text-align: center"> 3D Eddy Visualisations</div>
+<p align="center">3D Eddy Visualisations</p>  
 <br>
    
 - Filtered out `false postitive` eddies using Gemotrical constraints mentioned in this [paper](https://www.researchgate.net/publication/260722486_Gulf_Stream_eddy_characteristics_in_a_high-resolution_ocean_model_Gulf_Stream_Eddy_Characteristics).
 <p align="center">
 <a href="" rel="noopener">
 <img src="./img/Outputs/ens1T45withGeomConstr.png" alt="redsea" width="500px"/></a>
-
-<div style="text-align: center"> Surface Level Meso-scale Eddies</div>
+<p align="center">Surface Level Meso-scale Eddies</p>  
 <br>
 
 - Applied `Bredth First Search` algorithm on detected eddy centers from above step  over 3D region till threshhold value of Okuba-weiss parameter is reached.
@@ -83,9 +81,7 @@ Pink : Sea Bed from Bathy metry data.
 <p align="center">
 <a href="" rel="noopener">
 <img src="./img/Outputs/eddy_vis_3d.png" alt="redsea" width="500"/></a>
-
-<div style="text-align: center"> 3D Eddy Visualisations with Bathymetry Data at Timestep 15</div>
-  
+<p align="center">3D Eddy Visualisations with Bathymetry Data at Timestep 15</p>  
 
 <br>
 
@@ -93,9 +89,9 @@ Pink : Sea Bed from Bathy metry data.
 
 <p align="center">
 <a href="" rel="noopener">
-<img src="./img/Outputs/numberOfEddies.png" alt="redsea" width="500"/></a>
+<img src="./img/Outputs/numberOfEddies.png" alt="redsea" width="500px"/></a>
 
-<div style="text-align: center"> Eddy Count over 7 ensembles</div>
+<p align="center">Eddy Count over 7 ensembles</p>
 <br>
 
 - To validate our detected eddies we tried `stream-line-plots` over same regions:
@@ -105,16 +101,16 @@ Pink : Sea Bed from Bathy metry data.
 
 <img src="./img/Outputs/stream_with_eddy_radii%20(1).png" alt="redsea" width="500px"/>
 </a>
-
-<div style="text-align: center"> Streamlines and eddy detection on same graph</div>
+<p align="center">Streamlines and eddy detection on same graph</p>
 <br>
 
 - To establish relationship between eddies i.e identify  particular eddy is same in timestep X and X+1 we developed algorithm (see report for details) for eddy-tracking using area - overlap method. 
 Also tried  matlab's `SURF` feature to identify same eddies over different time interval:
-<center>
-<img src="./img/Outputs/SURF.png" alt="redsea" width="500"/>
-</center>
-<div style="text-align: center"> SURF from matlab</div>
+<p align="center">
+<a href="" rel="noopener">
+  <img src="./img/Outputs/SURF.png" alt="redsea" width="500px"/></a>
+
+<p align="center">SURF from matlab</p>
 
 <br>
 
@@ -124,7 +120,7 @@ Also tried  matlab's `SURF` feature to identify same eddies over different time 
 <p align="center">
 <a href="" rel="noopener">
 <img src="./img/Outputs/eddy_centroid.png" alt="redsea" width="500"/></a>
-<div style="text-align: center"> Eddy Detection from images and their centroids</div>
+<p align="center">Eddy Detection from images and their centroids </p>
 <br>
 
 - Applied object detection algorithms on images of eddies using `Contour Detection`​.For each detected objects we can assign features like centroid of eddy, shape of contours, area of contours, After that  we can search for eddies with same features in next few timesteps.
@@ -133,9 +129,8 @@ Also tried  matlab's `SURF` feature to identify same eddies over different time 
 <p align="center">
 <a href="" rel="noopener">
 <img src="./img/Outputs/eddy_life_cycle.png" alt="redsea" width="500"/></a>
-
-<div style="text-align: center"> Eddy Life Graph  </div>
-Each Column of nodes represents eddies from that timestep and edge  between node represents these two eddies are same just at present at different timestep.
+<p align="center">Eddy Life Graph </p>
+Each Column of nodes represents eddies from that timestep and edge between node represents these two eddies are same,just images  at different timestep.
 <br>
 <br>
 
@@ -144,8 +139,7 @@ Each Column of nodes represents eddies from that timestep and edge  between node
 <p align="center">
 <a href="" rel="noopener">
 <img src="./Outputs/../img/Outputs/BirthsEnsemble1.png" alt="redsea" width="500px"/></a>
-<div style="text-align: center"> Eddy Births </div>
-
+<p align="center"> Eddy Births</p>
 
 ----
 - PR's are welcome, 
