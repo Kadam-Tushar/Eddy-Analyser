@@ -16,7 +16,7 @@
 <p align="center"> NASA Visualisation Studio</p>
 
 ------------------------------------------
-This project does visualization of eddies present in red sea and finds interesting statistical measures to study behavior of eddies.
+This project does visualization of eddies present in red sea and finds interesting statistics to study behavior of eddies.
 
 - Given the narrow nature of the basin, many eddies can occupy more than half of the Red Sea width, providing rapid transport of organisms and nutrients along the coastline and between the african and Arabian Peninsula coasts. 
 - These marine `whirlpools` are much more frequent than what had been previously thought, profoundly affecting the social and economic lives of people living in the surrounding countries.
